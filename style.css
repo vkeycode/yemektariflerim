@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(80,80,80);
+    background: linear-gradient(0deg, rgba(80,80,80,0.9542191876750701) 0%, rgba(61,61,61,1) 45%, rgba(0,0,0,1) 100%);
+}
+header h1{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(83, 83, 83);
+    color: aliceblue;
+    box-shadow:  black 3px 3px 3px 3px;
+    text-shadow: black 3px 3px 3px ;
+}
+#page{
+    width: 1000px;
+    min-height: 900px;
+    box-shadow:  black 3px 3px 3px 3px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: black 3px 3px 3px ;
+    background: rgb(117, 117, 117);
+}
+#items{
+    position: relative;
+    margin-top: 20px;
+    left: 20px;
+    width: 500px;
+    float: left;
+    background: rgb(66, 66, 66);
+    box-shadow:  black 3px 3px 3px 3px;
+}
+#howmake{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width: 900px;
+    background:rgb(66, 66, 66);
+    box-shadow:  black 3px 3px 3px 3px;
+}
+img{
+    width: 350px;
+    height: 350px;
+    margin-left: 70px;
+    margin-top: 20px;
+    box-shadow:  black 3px 3px 3px 3px;
+}
+#items ul{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#howmake ol{
+    padding-left: 25px;
+    padding-right: 25px;
+}
